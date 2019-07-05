@@ -1,0 +1,28 @@
+Package: qmCH2018
+Type: Package
+Title: Quantile Mapping for CH2018
+Version: 1.0
+Date: 2019-07-05
+Authors@R: c(
+    person("Sven", "Kotlarski", email = "sven.kotlarski@meteoswiss.ch", role = c("aut", "cre")),
+    person("Jan", "Rajczak", email = "jan.rajczak@env.ethz.ch", role = "aut"),
+    person("Iris", "Feigenwinter", email = "iris.feigenwinter@meteoswiss.ch", role = "ctb"))
+Author:
+    Sven Kotlarski [aut,cre],
+    Jan Rajczak [aut],
+    Iris Feigenwinter [ctb]
+Maintainer: Sven Kotlarski <sven.kotlarski@meteoswiss.ch>
+Description: An implementation of quantile mapping (QM) based on empirical quantiles. The package is used
+    for bias-correcting and downscaling EURO-CORDEX RCM output within the frame of the CH2018 Swiss Climate
+    Change Scenarios. Several meteorological variables can be handled. Nex extremes are corrected according
+    to the correction function for the highes/lowest empirical quantile considered. This implementation is
+    based on and extends the code of Rajczak et al., International Journal of Climatology, 2016. Function families:
+    cal... -> Calendar conversion functions. helper... -> Helper functions. meta... -> Functions to handle climate
+    model meta data. qm... -> Quantile-mapping functions. selbox... -> Functions handling the appropriate selection
+    of climate model grid cells. timstats... -> Functions for temporal statistics.
+Imports:
+    ncdf4
+Depends: R (>= 3.2.2)
+License: GPLv3 (https://www.gnu.org/licenses/gpl-3.0.de.html). Users are required to reference Rajczak et al., International Journal of Climatology, 2016. DOI: 10.1002/joc.4417
+LazyData: TRUE
+RoxygenNote: 6.1.1
