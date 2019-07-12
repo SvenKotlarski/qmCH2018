@@ -2,7 +2,7 @@
 
 ## What is `qmCH2018`?
 
-**qmCH2018** is an implementation of quantile mapping (QM) based on empirical quantiles. The package has been developed at ETH Zurich and MeteoSwiss and is used for bias-correcting and downscaling EURO-CORDEX RCM output within the frame of the [CH2018 Swiss Climate Change Scenarios](http://www.climate-scenarios.ch).
+**qmCH2018** is an implementation of quantile mapping (QM) based on empirical quantiles. The package for the R programming language has been developed at ETH Zurich and MeteoSwiss and is used for bias-correcting and downscaling EURO-CORDEX RCM output within the frame of the [CH2018 Swiss Climate Change Scenarios](http://www.climate-scenarios.ch).
 
 ****
 
